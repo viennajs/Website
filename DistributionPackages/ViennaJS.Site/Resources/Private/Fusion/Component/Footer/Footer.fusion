@@ -1,0 +1,28 @@
+prototype(ViennaJS.Site:Component.Footer) < prototype(Neos.Fusion:Component) {
+	@context.node = ${site}
+	year = ${Date.format(Date.now(), 'Y')}
+	footerInfo = Neos.Fusion:Tag {
+		content = ${site.properties.footerInfo}
+		content.@process.convertUris = Neos.Neos:ConvertUris
+		@process.contentElementEditable = Neos.Neos:ContentElementEditable {
+			property = 'footerInfo'
+		}
+	}
+	footerItems = Neos.Fusion:Collection {
+		collection = ${site.properties.footerItems}
+		itemName = 'node'
+		itemRenderer = Carbon.Link:Link {
+			node = ${node}
+		}
+	}
+
+	renderer = afx`
+		<footer class="codeq-site-footer">
+			<div>{props.footerInfo}</div>
+			<div>&copy; {props.year}</div>
+			{props.footerItems}
+		</footer>
+	`
+
+	@process.contentElementWrapping = Neos.Neos:ContentElementWrapping
+}

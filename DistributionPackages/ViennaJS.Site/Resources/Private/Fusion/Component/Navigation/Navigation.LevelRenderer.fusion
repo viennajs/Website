@@ -1,0 +1,11 @@
+prototype(ViennaJS.Site:Component.Navigation.LevelRenderer) < prototype(Neos.Fusion:Array) {
+	title = ViennaJS.Site:Component.Navigation.Item {
+		@if.notRoot = ${node != site}
+	}
+	nextLevel = Neos.Fusion:Collection {
+		@if.notEmpty = ${this.collection.count() > 0}
+		collection = ${q(node).children('[instanceof Neos.Neos:Document][_hiddenInIndex != TRUE][hideFromMainMenu != TRUE]')}
+		itemName = 'node'
+		itemRenderer = ViennaJS.Site:Component.Navigation.LevelRenderer
+	}
+}
