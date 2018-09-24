@@ -21,12 +21,9 @@
         "moc/notfound": "^3.0",
         "jonnitto/sitemap": "^3.1",
         "sitegeist/silhouettes" : "^1.0",
+        "sitegeist/neosguidelines": "1.1.0",
 
         "neos/nodetypes-contentreferences": "*"
-    },
-    "require-dev": {
-        "ttree/eelshell": "@dev",
-        "sitegeist/neosguidelines": "^1.1"
     },
     "extra": {
         "branch-alias": {

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fbd809874e4d5ac7cc8fe1787475eb8b",
-    "content-hash": "281f08e2d028856a06af0ef5c01eb4a4",
+    "hash": "77b6ec12c3bd03d3debfd0e1b7d6218d",
+    "content-hash": "55c091388020947b9d39dff827848394",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -4746,6 +4746,51 @@
             "time": "2018-07-19 23:38:55"
         },
         {
+            "name": "sitegeist/neosguidelines",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sitegeist/Sitegeist.NeosGuidelines.git",
+                "reference": "4ba82db286465d31c65332e02265201df1ce0e1e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sitegeist/Sitegeist.NeosGuidelines/zipball/4ba82db286465d31c65332e02265201df1ce0e1e",
+                "reference": "4ba82db286465d31c65332e02265201df1ce0e1e",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "^2.7"
+            },
+            "type": "neos-package",
+            "autoload": {
+                "psr-0": {
+                    "Sitegeist\\NeosGuidelines": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Martin Ficzel",
+                    "email": "ficzel@sitegeist.de",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Max Strübing",
+                    "email": "struebing@sitegeist.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A package to validate projects against the sitegeist-project-guidelines.",
+            "time": "2017-04-27 09:56:23"
+        },
+        {
             "name": "sitegeist/silhouettes",
             "version": "v1.0.2",
             "source": {
@@ -5128,7 +5173,7 @@
             "dist": {
                 "type": "path",
                 "url": "DistributionPackages/ViennaJS.Site",
-                "reference": "9d08c5037d61ef5617ed599a0c2caf4cd017a1d7",
+                "reference": "c93dacd70b421441f9ae2bf4ae4ff911185288cf",
                 "shasum": null
             },
             "require": {
@@ -5149,11 +5194,8 @@
                 "neos/redirecthandler-databasestorage": "*",
                 "neos/redirecthandler-neosadapter": "*",
                 "neos/seo": "*",
+                "sitegeist/neosguidelines": "1.1.0",
                 "sitegeist/silhouettes": "^1.0"
-            },
-            "require-dev": {
-                "sitegeist/neosguidelines": "^1.1",
-                "ttree/eelshell": "@dev"
             },
             "type": "neos-site",
             "extra": {
@@ -5343,11 +5385,48 @@
             "time": "2018-04-25 15:33:34"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "ttree/eelshell",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ttreeagency/EelShell.git",
+                "reference": "28439674dcaed2697d51dc387c9c6c914e55bc22"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ttreeagency/EelShell/zipball/28439674dcaed2697d51dc387c9c6c914e55bc22",
+                "reference": "28439674dcaed2697d51dc387c9c6c914e55bc22",
+                "shasum": ""
+            },
+            "require": {
+                "neos/eel": "^4.0 || ^5.0"
+            },
+            "type": "neos-package",
+            "extra": {
+                "neos": {
+                    "package-key": "Ttree.EelShell"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ttree\\EelShell\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A shell for EEL expressions",
+            "time": "2018-04-27 15:03:09"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "viennajs/site": 20
+        "viennajs/site": 20,
+        "ttree/eelshell": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
