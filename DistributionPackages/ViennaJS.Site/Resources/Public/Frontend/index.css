@@ -43,6 +43,20 @@ body {
 	height: auto;
 }
 
+.viennajs-site-button {
+	display: inline-block;
+	padding: 5px 8px;
+	margin: 0 10px;
+	text-decoration: none;
+	color: white;
+	background: red;
+}
+
+.viennajs-site-button:active,
+.viennajs-site-button:hover,
+.viennajs-site-button:focus {
+	background: blue;
+}
 
 
 /**

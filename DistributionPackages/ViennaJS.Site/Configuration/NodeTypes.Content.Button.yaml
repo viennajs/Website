@@ -1,0 +1,32 @@
+'ViennaJS.Site:Content.Button':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: Button
+    icon: icon-link
+    position: 400
+    inlineEditable: true
+    inspector:
+      groups:
+        link:
+          label: 'Link'
+          icon: icon-link
+  properties:
+    label:
+      ui:
+        aloha:
+          placeholder: 'Enter label here...'
+      options:
+        silhouette: 'text.plain'
+    link:
+      type: string
+      ui:
+        label: 'Link'
+        inspector:
+          group: link
+    linkTarget:
+      type: boolean
+      ui:
+        label: 'Open in new window'
+        inspector:
+          group: link
