@@ -13,7 +13,21 @@
       <uriPathSegment __type="string">home</uriPathSegment>
      </properties>
     </variant>
-    <node identifier="6c302e0e-1d54-4697-a7ec-88d4e0d010cf" nodeName="main">
+    <variant sortingIndex="100" workspace="live" nodeType="ViennaJS.Site:Document.HomePage" version="10" removed="" hidden="" hiddenInIndex="">
+     <dimensions>
+      <language>en</language>
+     </dimensions>
+     <accessRoles __type="array"/>
+     <creationDateTime __type="object" __classname="DateTime">2018-09-24T16:23:47+02:00</creationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2018-09-24T16:45:15+02:00</lastModificationDateTime>
+     <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-24T16:45:14+02:00</lastPublicationDateTime>
+     <properties>
+      <title __type="string">Home</title>
+      <uriPathSegment __type="string">home</uriPathSegment>
+      <footerInfo __type="string">ViennaJS monthly meetups are organized by the community</footerInfo>
+     </properties>
+    </variant>
+    <node identifier="3977d0ba-81fe-e66d-1078-c9a5bb1e3fd5" nodeName="main">
      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
       <dimensions/>
       <accessRoles __type="array"/>
@@ -21,6 +35,183 @@
       <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T23:20:17+02:00</lastModificationDateTime>
       <properties/>
      </variant>
+     <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>en</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-09-24T16:23:47+02:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-09-24T16:45:15+02:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-24T16:45:14+02:00</lastPublicationDateTime>
+      <properties/>
+     </variant>
+     <node identifier="8d0f2ba0-8a30-48de-88dd-a3ac0340debf" nodeName="node-4or39shfs10cp">
+      <variant sortingIndex="150" workspace="live" nodeType="ViennaJS.Site:Content.Text" version="7" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-09-24T13:59:49+02:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-09-24T14:01:27+02:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-24T14:01:26+02:00</lastPublicationDateTime>
+       <properties>
+        <text __type="string">&lt;h2&gt;We are all about JavaScript. Share learnings and practical experience.&lt;/h2&gt;
+
+&lt;p&gt;We love client- and server-side JavaScript of all flavors! We like to be nerdy and have fun with code. We embrace every JavaScript library, whether you use jQuery, Vue, React, Angular, Node.js, CommonJS, ... or just your own magic creation – feel welcome.&lt;/p&gt;
+
+&lt;p&gt;We've a monthly meetup (every last Wednesday of the month) where we have short presentations on JavaScript topics in English – everyone is welcome to join in and do talks and show us new stuff.&lt;/p&gt;
+
+&lt;p&gt;Whether you yet need to code your first line of JavaScript, or you are a world-renown ninja — join us!&lt;/p&gt;
+
+&lt;p&gt;While there are many framework specific meetups in Vienna, we focus on the bigger picture. We follow the current trends and have both talks about new trending frameworks and existing important ones.&lt;/p&gt;
+</text>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="3c2ce110-db60-43f0-9f47-3e7c7dc73072" nodeName="node-lhjb6exoea8pv">
+      <variant sortingIndex="138" workspace="live" nodeType="ViennaJS.Site:Content.Button" version="7" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-09-24T15:33:35+02:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-09-24T16:46:35+02:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-24T15:56:57+02:00</lastPublicationDateTime>
+       <properties>
+        <label __type="string">RSVP now in new window</label>
+        <link __type="string">https://www.meetup.com/de-DE/viennajs/events/kcqjqpyxnbpc/</link>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="cf50235b-3d4e-4351-91a8-e797c3be3f80" nodeName="node-q37uznvc2s7l2">
+      <variant sortingIndex="125" workspace="live" nodeType="ViennaJS.Site:Content.Text" version="20" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-09-24T15:26:54+02:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-09-24T15:49:17+02:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-24T15:49:16+02:00</lastPublicationDateTime>
+       <properties>
+        <text __type="string">&lt;h2&gt;Join our next meetup on Oktober 31th&lt;/h2&gt;
+</text>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="26861527-3c0d-4dd2-88c4-47a0821d320b" nodeName="node-yfdg5ktkx2mdp">
+      <variant sortingIndex="100" workspace="live" nodeType="ViennaJS.Site:Content.Headline" version="11" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-09-24T13:58:59+02:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-09-24T14:01:27+02:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-24T14:01:26+02:00</lastPublicationDateTime>
+       <properties>
+        <title __type="string">&lt;h1&gt;Vienna's biggest JavaScript community&lt;/h1&gt;
+</title>
+       </properties>
+      </variant>
+     </node>
+     <node identifier="017f53e8-7eec-4ca9-ba08-85c7b6518548" nodeName="node-yzwty1y0yiomy">
+      <variant sortingIndex="144" workspace="live" nodeType="ViennaJS.Site:Content.Button" version="7" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-09-24T15:56:15+02:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-09-24T16:13:02+02:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-24T16:13:01+02:00</lastPublicationDateTime>
+       <properties>
+        <label __type="string">Meetups</label>
+        <link __type="string">node://1b98de96-9837-435c-a65d-c3853552d11c</link>
+       </properties>
+      </variant>
+     </node>
+    </node>
+    <node identifier="66e76c36-f8ba-41d6-8edb-9b3c75ffe803" nodeName="node-0u8v16vmyzk1g">
+     <variant sortingIndex="400" workspace="live" nodeType="ViennaJS.Site:Document.Page" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>en</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-09-24T13:58:40+02:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-09-24T14:01:27+02:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-24T14:01:26+02:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">about-us</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">About Us</title>
+      </properties>
+     </variant>
+     <node identifier="1d1b4d97-586d-9eef-3517-d912f3349184" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-09-24T13:58:40+02:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-09-24T14:01:27+02:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-24T14:01:26+02:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
+    </node>
+    <node identifier="1b98de96-9837-435c-a65d-c3853552d11c" nodeName="node-4sqf187kxhl6l">
+     <variant sortingIndex="300" workspace="live" nodeType="ViennaJS.Site:Document.Page" version="2" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>en</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-09-24T13:58:21+02:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-09-24T14:01:27+02:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-24T14:01:26+02:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">meetups</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Meetups</title>
+      </properties>
+     </variant>
+     <node identifier="33426be6-4fb3-761a-ecee-9b3f21558f88" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-09-24T13:58:22+02:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-09-24T14:01:27+02:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-24T14:01:26+02:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
+    </node>
+    <node identifier="20150704-f547-4c42-a2f7-1e4a556e9ec3" nodeName="node-m8ay66t7wnvf4">
+     <variant sortingIndex="350" workspace="live" nodeType="ViennaJS.Site:Document.Page" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions>
+       <language>en</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-09-24T13:58:32+02:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-09-24T14:01:27+02:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-24T14:01:26+02:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">talks</uriPathSegment>
+       <canonicalLink __type="string"></canonicalLink>
+       <title __type="string">Talks</title>
+      </properties>
+     </variant>
+     <node identifier="f2c19f76-9dc2-0da9-39a9-6b84ed7f1961" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-09-24T13:58:32+02:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-09-24T14:01:27+02:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-24T14:01:26+02:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
     </node>
     <node identifier="b90b9ac8-4919-41ce-8ac8-1f1bb0464c90" nodeName="node-st848k789igwk">
      <variant sortingIndex="200" workspace="live" nodeType="ViennaJS.Site:Document.Page" version="3" removed="" hidden="" hiddenInIndex="1">
@@ -31,10 +222,25 @@
       <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T23:23:05+02:00</lastPublicationDateTime>
       <properties>
        <uriPathSegment __type="string">404</uriPathSegment>
-       <canonicalLink __type="string"></canonicalLink>
        <title __type="string">Page not found</title>
        <hideFromMainMenu __type="boolean">1</hideFromMainMenu>
        <metaRobotsNoindex __type="boolean">1</metaRobotsNoindex>
+      </properties>
+     </variant>
+     <variant sortingIndex="500" workspace="live" nodeType="ViennaJS.Site:Document.Page" version="4" removed="" hidden="" hiddenInIndex="1">
+      <dimensions>
+       <language>en</language>
+      </dimensions>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2018-09-24T13:58:45+02:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2018-09-24T16:46:36+02:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-24T14:01:26+02:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">404</uriPathSegment>
+       <title __type="string">Page not found</title>
+       <hideFromMainMenu __type="boolean">1</hideFromMainMenu>
+       <metaRobotsNoindex __type="boolean">1</metaRobotsNoindex>
+       <canonicalLink __type="string"></canonicalLink>
       </properties>
      </variant>
      <node identifier="c78a1120-2f5f-325f-23b8-670263d72d0d" nodeName="main">
@@ -44,6 +250,16 @@
        <creationDateTime __type="object" __classname="DateTime">2018-06-26T23:21:39+02:00</creationDateTime>
        <lastModificationDateTime __type="object" __classname="DateTime">2018-06-26T23:23:05+02:00</lastModificationDateTime>
        <lastPublicationDateTime __type="object" __classname="DateTime">2018-06-26T23:23:05+02:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions>
+        <language>en</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2018-09-24T13:58:45+02:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2018-09-24T14:01:27+02:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2018-09-24T14:01:26+02:00</lastPublicationDateTime>
        <properties/>
       </variant>
      </node>
