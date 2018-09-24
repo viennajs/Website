@@ -3,14 +3,14 @@ Carbon:
   IncludeAssets:
     Path:
       Inline:
-        CSS: 'Public/Frontend'
-        JS: 'Public/Frontend'
+        CSS: 'Public/Frontend/css'
+        JS: 'Public/Frontend/lib'
       File:
-        CSS: 'Public/Frontend'
-        JS: 'Public/Frontend'
+        CSS: 'Public/Frontend/css'
+        JS: 'Public/Frontend/lib'
     # Asset files who get's loaded in live and backend view
     General:
       Head:
-        - index.css
+        - main.css
       Body:
-        - index.js
+        - main.js
