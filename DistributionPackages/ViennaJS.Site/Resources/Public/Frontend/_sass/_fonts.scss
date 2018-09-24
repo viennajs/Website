@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'ZeitungMonoPro';
+  font-weight: bold;
+  font-style: italic;
+  src: url('../fonts/Zeitung_Mono_Pro_Extrabold_Italic/ZeitungMonoPro-ExtraboldItalic.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/Zeitung_Mono_Pro_Extrabold_Italic/ZeitungMonoPro-ExtraboldItalic.woff2') format('woff2'),
+     url('../fonts/Zeitung_Mono_Pro_Extrabold_Italic/ZeitungMonoPro-ExtraboldItalic.woff') format('woff'),
+     url('../fonts/Zeitung_Mono_Pro_Extrabold_Italic/ZeitungMonoPro-ExtraboldItalic.ttf') format('truetype'),
+     url('../fonts/Zeitung_Mono_Pro_Extrabold_Italic/ZeitungMonoPro-ExtraboldItalic.svg#ZeitungMonoPro-ExtraboldItalic') format('svg');
+}
+
+@font-face {
+  font-family: 'ZeitungMonoPro';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/Zeitung_Mono_Pro_Regular/ZeitungMonoPro-Regular.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/Zeitung_Mono_Pro_Regular/ZeitungMonoPro-Regular.woff2') format('woff2'),
+     url('../fonts/Zeitung_Mono_Pro_Regular/ZeitungMonoPro-Regular.woff') format('woff'),
+     url('../fonts/Zeitung_Mono_Pro_Regular/ZeitungMonoPro-Regular.ttf') format('truetype'),
+     url('../fonts/Zeitung_Mono_Pro_Regular/ZeitungMonoPro-Regular.svg#ZeitungMonoPro-Regular') format('svg');
+}
+
+@font-face {
+  font-family: 'ZeitungMonoPro';
+  font-weight: normal;
+  font-style: italic;
+  src: url('../fonts/Zeitung_Mono_Pro_Regular_Italic/ZeitungMonoPro-RegularItalic.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/Zeitung_Mono_Pro_Regular_Italic/ZeitungMonoPro-RegularItalic.woff2') format('woff2'),
+     url('../fonts/Zeitung_Mono_Pro_Regular_Italic/ZeitungMonoPro-RegularItalic.woff') format('woff'),
+     url('../fonts/Zeitung_Mono_Pro_Regular_Italic/ZeitungMonoPro-RegularItalic.ttf') format('truetype'),
+     url('../fonts/Zeitung_Mono_Pro_Regular_Italic/ZeitungMonoPro-RegularItalic.svg#ZeitungMonoPro-RegularItalic') format('svg');
+}
+
+ $family-sans-serif: 'ZeitungMonoPro', "Helvetica", "Arial", sans-serif;

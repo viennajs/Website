@@ -1,9 +1,9 @@
 prototype(ViennaJS.Site:Content.Text) < prototype(Neos.Neos:ContentComponent) {
-	text = Neos.Neos:Editable {
-		property = 'text'
-	}
+    text = Neos.Neos:Editable {
+        property = 'text'
+    }
 
-	renderer = afx`
-		<div class="codeq-site-text">{props.text}</div>
-	`
+    renderer = afx`
+        <div class="viennajs-text container content">{props.text}</div>
+    `
 }

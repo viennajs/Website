@@ -7,6 +7,8 @@ prototype(ViennaJS.Site:Content.Button) < prototype(Neos.Neos:ContentComponent) 
 	renderAsLink = ${site.context.inBackend ? false : true}
 
 	renderer = afx`
-		<Carbon.Link:Link link={props.link} additionalClass="viennajs-site-button">{props.label}</Carbon.Link:Link>
+		<div class="viennajs-button container">
+			<Carbon.Link:Link link={props.link} additionalClass="button is-primary">{props.label}</Carbon.Link:Link>
+		</div>
 	`
 }

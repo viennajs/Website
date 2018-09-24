@@ -2,11 +2,28 @@ prototype(ViennaJS.Site:Component.Header) < prototype(Neos.Fusion:Component) {
 	homeLink = Neos.Neos:NodeUri {
 		node = ${site}
 	}
+	logoUri = Neos.Fusion:ResourceUri {
+		path = 'resource://ViennaJS.Site/Public/Frontend/img/viennajs-logo.svg'
+	}
 
 	renderer = afx`
-		<header class="codeq-site-header">
-			<a class="codeq-site-logo" href={props.homeLink}>BRAND NAME</a>
-			<ViennaJS.Site:Component.Navigation />
+		<header>
+			<nav class="navbar is-transparent">
+				<div class="navbar-brand">
+					<a class="navbar-item" href={props.homeLink}>
+						<img src={props.logoUri} alt="ViennaJS" width="108" height="28" />
+					</a>
+					<div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div>
+
+				<div id="navbarExampleTransparentExample" class="navbar-menu">
+					<ViennaJS.Site:Component.Navigation />
+				</div>
+			</nav>
 		</header>
 	`
 }

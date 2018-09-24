@@ -5,7 +5,7 @@ prototype(ViennaJS.Site:Component.Navigation.Item) < prototype(Neos.Fusion:Tag) 
 			node = ${node}
 		}
 		class = Neos.Fusion:RawArray {
-			base = 'Navigation-item'
+			base = 'navbar-item'
 			level = ${'Navigation-itemLevel' + (node.depth - 2)}
 			current = 'isCurrent'
 			current.@if.isCurrent = ${node == documentNode}

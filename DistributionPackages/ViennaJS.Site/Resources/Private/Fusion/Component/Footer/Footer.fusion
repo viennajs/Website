@@ -8,19 +8,14 @@ prototype(ViennaJS.Site:Component.Footer) < prototype(Neos.Fusion:Component) {
 			property = 'footerInfo'
 		}
 	}
-	footerItems = Neos.Fusion:Collection {
-		collection = ${site.properties.footerItems}
-		itemName = 'node'
-		itemRenderer = Carbon.Link:Link {
-			node = ${node}
-		}
-	}
 
 	renderer = afx`
-		<footer class="codeq-site-footer">
-			<div>{props.footerInfo}</div>
-			<div>&copy; {props.year}</div>
-			{props.footerItems}
+		<footer class="viennajs-footer footer">
+			<div class="content has-text-centered">
+				<p>
+					<div>&copy; 2017-{props.year} {props.footerInfo}</div>
+				</p>
+			</div>
 		</footer>
 	`
 
