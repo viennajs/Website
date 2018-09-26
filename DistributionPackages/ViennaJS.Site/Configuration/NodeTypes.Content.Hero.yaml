@@ -1,0 +1,26 @@
+'ViennaJS.Site:Content.Hero':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: 'Hero Image'
+    icon: icon-picture
+    position: 50
+    inspector:
+      groups:
+        image:
+          label: 'Image'
+          icon: icon-image
+  properties:
+    image:
+      type: Neos\Media\Domain\Model\ImageInterface
+      ui:
+        label: 'Image'
+        reloadIfChanged: true
+        inspector:
+          group: image
+    alternativeText:
+      type: string
+      ui:
+        label: 'Alternative Text'
+        inspector:
+          group: image
