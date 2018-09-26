@@ -7,7 +7,7 @@ prototype(ViennaJS.Site:Component.Header) < prototype(Neos.Fusion:Component) {
 	}
 
 	renderer = afx`
-		<header>
+		<header class="viennajs-header">
 			<nav class="navbar is-transparent">
 				<div class="navbar-brand">
 					<a class="navbar-item" href={props.homeLink}>

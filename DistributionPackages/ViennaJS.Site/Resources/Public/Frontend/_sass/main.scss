@@ -11,7 +11,7 @@ $blue: #2b00ff;
 $yellow: #ffeb40;
 
 // Update the sans-serif font family
-$family-sans-serif: 'ZeitungMonoPro', "Helvetica", "Arial", sans-serif;
+@import "fonts";
 
 // 3. Set the derived variables
 $primary: $red;
@@ -22,6 +22,7 @@ $primary-invert: white;
 
 
 // Components
+@import "../../../Private/Fusion/Component/Header/Header";
 @import "../../../Private/Fusion/Component/Footer/Footer";
 
 // Content Node Types

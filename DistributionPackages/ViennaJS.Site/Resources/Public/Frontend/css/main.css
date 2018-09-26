@@ -6522,13 +6522,17 @@ label.panel-block {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }
 
+.viennajs-header {
+  margin-bottom: 2rem; }
+
 .viennajs-footer {
   margin-top: 2rem;
   color: white;
   background: #ff1919; }
 
 .viennajs-button {
-  margin-bottom: 0.8rem; }
+  padding: 0 1rem;
+  margin-bottom: 1.5rem; }
 
 .viennajs-text {
-  margin-bottom: 1rem; }
+  padding: 0 1rem; }

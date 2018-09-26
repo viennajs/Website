@@ -1,8 +1,8 @@
 prototype(ViennaJS.Site:Content.Image) < prototype(Neos.Neos:ContentComponent) {
 	alternativeText = ${node.properties.alternativeText}
 	src = ViennaJS.Site:Component.ImageUri {
-		@context.asset = ${q(node).property('image')}
-		@context.maximumWidth = 900
+		asset = ${q(node).property('image')}
+		maximumWidth = 900
 	}
 
 	renderer = afx`
