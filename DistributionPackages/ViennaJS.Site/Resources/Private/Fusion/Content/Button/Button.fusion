@@ -3,8 +3,6 @@ prototype(ViennaJS.Site:Content.Button) < prototype(Neos.Neos:ContentComponent) 
 		property = 'label'
 	}
 	link = ${q(node).property('link')}
-	linkTarget = ${q(node).property('linkTarget') ? '_blank' : '_self'}
-	renderAsLink = ${site.context.inBackend ? false : true}
 
 	renderer = afx`
 		<div class="viennajs-button container">

@@ -2,7 +2,7 @@
 
 // Bulma Customization
 // 1. Import the initial variables
-@import "../node_modules/bulma/sass/utilities/initial-variables";
+@import "../node_modules/bulma/sass/utilities/_all";
 
 // 2. Set your own initial variables
 $red: #ff1919;
@@ -18,8 +18,7 @@ $primary: $red;
 $primary-invert: white;
 
 // 4. Import the rest of Bulma
-@import "../node_modules/bulma/bulma";
-
+@import "../node_modules/bulma/sass/elements/button.sass"
 
 // Components
 @import "../../../Private/Fusion/Component/Header/Header";
