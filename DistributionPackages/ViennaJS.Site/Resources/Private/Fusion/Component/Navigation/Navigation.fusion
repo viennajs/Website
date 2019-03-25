@@ -1,9 +1,11 @@
-prototype(ViennaJS.Site:Component.Navigation) < prototype(Neos.Fusion:Value) {
+prototype(ViennaJS.Site:Component.Navigation) < prototype(Neos.Fusion:Component) {
 	@context.node = ${site}
-	value = Neos.Fusion:Tag {
-		attributes.class = 'navbar-start'
-		content = ViennaJS.Site:Component.Navigation.LevelRenderer
-	}
+
+	renderer = afx`
+		<ul class="navbar-start">
+			<ViennaJS.Site:Component.Navigation.LevelRenderer />
+		</ul>
+	`
 	@cache {
 		mode = 'cached'
 		entryIdentifier.node = ${documentNode}

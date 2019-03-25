@@ -16,8 +16,8 @@ prototype(ViennaJS.Site:Document.AbstractPage) < prototype(Neos.Neos:Page) {
 			`
 		}
 	}
-	body = Neos.Fusion:Component {
-		@process.layout = ViennaJS.Site:Component.DefaultLayout
+	body = ViennaJS.Site:Component.DefaultLayout {
+		content = ''
 		@process.normalize = CodeQ.UnicodeNormalizer:Normalizer
 	}
 }

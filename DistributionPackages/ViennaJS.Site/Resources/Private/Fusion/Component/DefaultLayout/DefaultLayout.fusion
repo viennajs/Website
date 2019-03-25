@@ -1,5 +1,5 @@
 prototype(ViennaJS.Site:Component.DefaultLayout) < prototype(Neos.Fusion:Component) {
-	content = ${value}
+	content = ''
 
 	renderer = afx`
 		<ViennaJS.Site:Component.Header />

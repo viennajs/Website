@@ -21,7 +21,9 @@ prototype(ViennaJS.Site:Component.Header) < prototype(Neos.Fusion:Component) {
 				</div>
 
 				<div id="navbarExampleTransparentExample" class="navbar-menu">
-					<ViennaJS.Site:Component.Navigation />
+					<div class="navbar-start">
+						<ViennaJS.Site:Component.Navigation />
+					</div>
 				</div>
 			</nav>
 		</header>
